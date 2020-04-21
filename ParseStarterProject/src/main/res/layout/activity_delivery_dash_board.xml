@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deliveryDashBoard">
+
+    <RelativeLayout
+        android:layout_width="407dp"
+        android:layout_height="650dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428">
+
+        <ImageView
+            android:id="@+id/accountImageView"
+            android:layout_width="124dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="390dp"
+            android:layout_marginEnd="244dp"
+            app:srcCompat="@drawable/user" />
+
+        <TextView
+            android:id="@+id/hiTextView"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="102dp"
+            android:layout_marginEnd="-16dp"
+            android:text="Hi "
+            android:textColor="#160B0F"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/locationImageView"
+            android:layout_width="119dp"
+            android:layout_height="112dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="239dp"
+            android:layout_marginTop="205dp"
+            app:srcCompat="@drawable/map" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="304dp"
+            android:text="Delivery Requests"
+            android:textColor="#FD090404"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="311dp"
+            android:text="Set Delivery radius"
+            android:textColor="#F80E0202"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginBottom="118dp"
+            android:text="My Account"
+            android:textColor="#FD0F0505"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="115dp"
+            android:text="Transcation History"
+            android:textColor="#FA070101"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/backImageView"
+            android:layout_width="44dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/deliveryImageView"
+            android:layout_width="125dp"
+            android:layout_height="127dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="201dp"
+            app:srcCompat="@drawable/deliveryboy" />
+
+        <ImageView
+            android:id="@+id/transcation"
+            android:layout_width="131dp"
+            android:layout_height="152dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="139dp"
+            app:srcCompat="@drawable/cashpayment" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

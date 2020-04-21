@@ -1,0 +1,208 @@
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:108
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:124
+-keep class com.google.android.gms.analytics.AnalyticsJobService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:114
+-keep class com.google.android.gms.analytics.AnalyticsReceiver { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:120
+-keep class com.google.android.gms.analytics.AnalyticsService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:130
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:100
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:91
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:85
+-keep class com.google.android.gms.cast.framework.ReconnectionService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:82
+-keep class com.google.android.gms.cast.framework.media.MediaIntentReceiver { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:84
+-keep class com.google.android.gms.cast.framework.media.MediaNotificationService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:147
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:186
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:200
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:181
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:196
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:167
+-keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:162
+-keep class com.google.android.gms.tagmanager.TagManagerService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:140
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:206
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:220
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:155
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:228
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:59
+-keep class com.parse.starter.BookingConfirmation { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:56
+-keep class com.parse.starter.Feedback { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:68
+-keep class com.parse.starter.FindFood { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:61
+-keep class com.parse.starter.FoodMenu { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:62
+-keep class com.parse.starter.LocationDelivery { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:65
+-keep class com.parse.starter.LocationUser { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:72
+-keep class com.parse.starter.MainActivity { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:57
+-keep class com.parse.starter.OTP { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:58
+-keep class com.parse.starter.Requests { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:71
+-keep class com.parse.starter.SignUpPage { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:33
+-keep class com.parse.starter.StarterApplication { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:53
+-keep class com.parse.starter.TrackOrder { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:60
+-keep class com.parse.starter.UserCart { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:70
+-keep class com.parse.starter.UserDashBoard { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\merged_manifests\release\AndroidManifest.xml:69
+-keep class com.parse.starter.deliveryDashBoard { <init>(); }
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_user_dash_board.xml:2
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_sign_up_page.xml:2
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_delivery_dash_board.xml:2
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_sign_up_page.xml:48
+-keep class android.support.constraint.Guideline { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\7804fdd88cb835f246b01d17df0377c8\mediarouter-v7-26.1.0\res\layout\mr_volume_control.xml:43
+-keep class android.support.v7.app.MediaRouteExpandCollapseButton { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\7804fdd88cb835f246b01d17df0377c8\mediarouter-v7-26.1.0\res\layout\mr_volume_control.xml:34
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\7804fdd88cb835f246b01d17df0377c8\mediarouter-v7-26.1.0\res\layout\mr_controller_volume_item.xml:43
+-keep class android.support.v7.app.MediaRouteVolumeSlider { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\7804fdd88cb835f246b01d17df0377c8\mediarouter-v7-26.1.0\res\layout\mr_controller_material_dialog_b.xml:87
+-keep class android.support.v7.app.OverlayListView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout-v26\abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout-v26\abc_screen_toolbar.xml:44
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout-v26\abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\request.xml:2
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\home.xml:2
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\food.xml:2
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_requests.xml:31
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_food_menu.xml:35
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_find_food.xml:9
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\res\layout\cast_expanded_controller_activity.xml:28
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout-v26\abc_screen_toolbar.xml:37
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3c115bd9f6556a7430ab54a2645aa55d\appcompat-v7-26.1.0\res\layout\abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\res\layout\cast_help_text.xml:2
+-keep class com.google.android.gms.cast.framework.internal.featurehighlight.HelpTextView { <init>(...); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_track_order.xml:2
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_location_user.xml:7
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_location_delivery.xml:9
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# Referenced at C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\f27e24c1d508127e88d2c52c9e6b2a29\android-maps-utils-1.0.2\res\layout\amu_text_bubble.xml:23
+-keep class com.google.maps.android.ui.RotationLayout { <init>(...); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_food_menu.xml:47
+-keepclassmembers class * { *** addToCart(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_user_cart.xml:40
+-keepclassmembers class * { *** cancelOrder(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_main.xml:61
+-keepclassmembers class * { *** loginClicked(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_user_cart.xml:9
+-keepclassmembers class * { *** placeOrder(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_location_user.xml:28
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_booking_confirmation.xml:9
+-keepclassmembers class * { *** refresh(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_location_user.xml:16
+-keepclassmembers class * { *** saveDeliveryLocation(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_location_delivery.xml:85
+-keepclassmembers class * { *** saveRadius(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_sign_up_page.xml:167
+-keepclassmembers class * { *** signUpClicked(android.view.View); }
+
+# Referenced at R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\res\layout\activity_otp.xml:9
+-keepclassmembers class * { *** submit(android.view.View); }
+

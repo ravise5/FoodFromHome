@@ -1,0 +1,435 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parse.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:5-79
+16-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:5-67
+17-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:5-79
+18-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:5-80
+19-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:13:22-77
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\726289a817ba698659d0e1d51eeb9c60\play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\726289a817ba698659d0e1d51eeb9c60\play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
+23        android:required="true" /> <!-- Optional permission for Analytics to run. -->
+23-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\726289a817ba698659d0e1d51eeb9c60\play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
+24    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+24-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:27:5-68
+24-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:27:22-65
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\6f4b7c11c66dfdfa6b1c0997fe511222\play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
+25-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\6f4b7c11c66dfdfa6b1c0997fe511222\play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
+26
+27    <permission
+27-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+28        android:name="com.parse.starter.permission.C2D_MESSAGE"
+28-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+29        android:protectionLevel="signature" />
+29-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+30
+31    <uses-permission android:name="com.parse.starter.permission.C2D_MESSAGE" />
+31-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+31-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+32
+33    <application
+33-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:5-62:19
+34        android:name="com.parse.starter.StarterApplication"
+34-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:16:9-43
+35        android:allowBackup="true"
+35-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:9-35
+36        android:icon="@mipmap/ic_launcher"
+36-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:18:9-43
+37        android:label="@string/app_name"
+37-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:19:9-41
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:20:9-40
+40
+41        <!--
+42             The API key for Google Maps-based APIs is defined as a string resource.
+43             (See the file "res/values/google_maps_api.xml").
+44             Note that the API key is linked to the encryption key used to sign the APK.
+45             You need a different API key for each encryption key, including the release key that is used to
+46             sign the APK for publishing.
+47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+48        -->
+49        <meta-data
+49-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:30:9-32:55
+50            android:name="com.google.android.geo.API_KEY"
+50-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:31:13-58
+51            android:value="@string/google_maps_key" />
+51-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:13-52
+52
+53        <activity
+53-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:34:9-36:75
+54            android:name="com.parse.starter.TrackOrder"
+54-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:35:13-39
+55            android:label="@string/title_activity_track_order" />
+55-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:36:13-63
+56        <activity android:name="com.parse.starter.Feedback" />
+56-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:37:9-46
+56-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:37:19-43
+57        <activity android:name="com.parse.starter.OTP" />
+57-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:38:9-41
+57-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:38:19-38
+58        <activity android:name="com.parse.starter.Requests" />
+58-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:39:9-46
+58-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:39:19-43
+59        <activity android:name="com.parse.starter.BookingConfirmation" />
+59-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:40:9-57
+59-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:40:19-54
+60        <activity android:name="com.parse.starter.UserCart" />
+60-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:41:9-46
+60-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:41:19-43
+61        <activity android:name="com.parse.starter.FoodMenu" />
+61-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:42:9-46
+61-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:42:19-43
+62        <activity
+62-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:43:9-45:72
+63            android:name="com.parse.starter.LocationDelivery"
+63-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:44:13-45
+64            android:label="@string/title_activity_location_delivery" />
+64-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:45:13-69
+65        <activity
+65-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:46:9-48:68
+66            android:name="com.parse.starter.LocationUser"
+66-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:47:13-41
+67            android:label="@string/title_activity_location_user" />
+67-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:48:13-65
+68        <activity android:name="com.parse.starter.FindFood" />
+68-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:49:9-46
+68-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:49:19-43
+69        <activity android:name="com.parse.starter.deliveryDashBoard" />
+69-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:50:9-55
+69-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:50:19-52
+70        <activity android:name="com.parse.starter.UserDashBoard" />
+70-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:51:9-51
+70-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:51:19-48
+71        <activity android:name="com.parse.starter.SignUpPage" />
+71-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:52:9-48
+71-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:52:19-45
+72        <activity
+72-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:53:9-61:20
+73            android:name="com.parse.starter.MainActivity"
+73-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:54:13-41
+74            android:label="@string/app_name" >
+74-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:55:13-45
+75            <intent-filter>
+75-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:56:13-60:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:57:17-69
+76-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:57:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:59:17-77
+78-->R:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:59:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+82-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+82-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+83
+84        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+84-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+84-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+85        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+85-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+85-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\631731819abda758889758121904bbdd\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+86
+87        <meta-data
+87-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\7804fdd88cb835f246b01d17df0377c8\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+88            android:name="android.support.VERSION"
+88-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\7804fdd88cb835f246b01d17df0377c8\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+89            android:value="26.1.0" />
+89-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\7804fdd88cb835f246b01d17df0377c8\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+90
+91        <activity
+91-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+92            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+92-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+93            android:excludeFromRecents="true"
+93-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+96        <!--
+97            Service handling Google Sign-In user revocation. For apps that do not integrate with
+98            Google Sign-In, this service will never be started.
+99        -->
+100        <service
+100-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+101            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+101-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+102            android:exported="true"
+102-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+103            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+103-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\ba14473b859604ba0dbfc33bebcfe345\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+104
+105        <meta-data
+105-->[com.google.maps.android:android-maps-utils:1.0.2] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\f27e24c1d508127e88d2c52c9e6b2a29\android-maps-utils-1.0.2\AndroidManifest.xml:12:9-14:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.maps.android:android-maps-utils:1.0.2] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\f27e24c1d508127e88d2c52c9e6b2a29\android-maps-utils-1.0.2\AndroidManifest.xml:13:13-58
+107            android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+107-->[com.google.maps.android:android-maps-utils:1.0.2] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\f27e24c1d508127e88d2c52c9e6b2a29\android-maps-utils-1.0.2\AndroidManifest.xml:14:13-66
+108        <activity
+108-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\2450bafac107baf7051f4a04e23265b5\play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+109            android:name="com.google.android.gms.ads.AdActivity"
+109-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\2450bafac107baf7051f4a04e23265b5\play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
+110            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+110-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\2450bafac107baf7051f4a04e23265b5\play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\2450bafac107baf7051f4a04e23265b5\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+112            android:theme="@android:style/Theme.Translucent" />
+112-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\2450bafac107baf7051f4a04e23265b5\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+113
+114        <receiver
+114-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+115            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+115-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+117            android:exported="false" >
+117-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+118        </receiver>
+119
+120        <service
+120-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+121            android:name="com.google.android.gms.analytics.AnalyticsService"
+121-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+123            android:exported="false" />
+123-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+124        <service
+124-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+125            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+125-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\653abfd96342298064fa5d191584afc5\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+129
+130        <activity
+130-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+131            android:name="com.google.android.gms.appinvite.PreviewActivity"
+131-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+132            android:exported="true"
+132-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+133            android:theme="@style/Theme.AppInvite.Preview" >
+133-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+134            <intent-filter>
+134-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+135                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+135-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+135-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+137-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+138            </intent-filter>
+139        </activity>
+140        <activity
+140-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b6e7f1350f995196bed856a8facaca6d\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+141            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+141-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b6e7f1350f995196bed856a8facaca6d\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+142            android:excludeFromRecents="true"
+142-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b6e7f1350f995196bed856a8facaca6d\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+143            android:exported="true"
+143-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b6e7f1350f995196bed856a8facaca6d\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+144            android:launchMode="singleInstance"
+144-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b6e7f1350f995196bed856a8facaca6d\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+145            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+145-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b6e7f1350f995196bed856a8facaca6d\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b6e7f1350f995196bed856a8facaca6d\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+147        <activity
+147-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\442a1228472708ee5cd371935ee72cf8\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+148            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+148-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\442a1228472708ee5cd371935ee72cf8\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\442a1228472708ee5cd371935ee72cf8\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+150-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\442a1228472708ee5cd371935ee72cf8\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+151        <!--
+152             FirebaseMessagingService performs security checks at runtime,
+153             no need for explicit permissions despite exported="true"
+154        -->
+155        <service
+155-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\67cf47fcb9092575b70dbac8a1880cee\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+156            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+156-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\67cf47fcb9092575b70dbac8a1880cee\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+157            android:exported="true" >
+157-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\67cf47fcb9092575b70dbac8a1880cee\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+158            <intent-filter android:priority="-500" >
+158-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\67cf47fcb9092575b70dbac8a1880cee\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+158-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\67cf47fcb9092575b70dbac8a1880cee\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+159                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+159-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\67cf47fcb9092575b70dbac8a1880cee\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+159-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\67cf47fcb9092575b70dbac8a1880cee\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+160            </intent-filter>
+161        </service>
+162        <service
+162-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+163            android:name="com.google.android.gms.tagmanager.TagManagerService"
+163-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+164            android:enabled="true"
+164-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+165            android:exported="false" />
+165-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+166
+167        <activity
+167-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+168            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+168-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+169            android:exported="true"
+169-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+170            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+170-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+171            <intent-filter>
+171-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+172                <data android:scheme="tagmanager.c.com.parse.starter" />
+172-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+172-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+173
+174                <action android:name="android.intent.action.VIEW" />
+174-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+174-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+176-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\729b1a76da86d73b8bcc8764e71131e8\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+177                <category android:name="android.intent.category.BROWSABLE" />
+177-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+177-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\b83afce781a0881eeccacb0856731f18\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+178            </intent-filter>
+179        </activity>
+180
+181        <receiver
+181-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+182            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+182-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+183            android:enabled="true"
+183-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+184            android:exported="false" >
+184-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+185        </receiver>
+186        <receiver
+186-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+187            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+187-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+188            android:enabled="true"
+188-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+189            android:exported="true"
+189-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+190            android:permission="android.permission.INSTALL_PACKAGES" >
+190-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+191            <intent-filter>
+191-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+192                <action android:name="com.android.vending.INSTALL_REFERRER" />
+192-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+192-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+193            </intent-filter>
+194        </receiver>
+195
+196        <service
+196-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+197            android:name="com.google.android.gms.measurement.AppMeasurementService"
+197-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+198            android:enabled="true"
+198-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+199            android:exported="false" />
+199-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+200        <service
+200-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+201            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+201-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+202            android:enabled="true"
+202-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+203            android:exported="false"
+203-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+204            android:permission="android.permission.BIND_JOB_SERVICE" />
+204-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\859188b7e176cfb0d4af3797b7554bff\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+205
+206        <receiver
+206-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+207            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+207-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+208            android:exported="true"
+208-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+209            android:permission="com.google.android.c2dm.permission.SEND" >
+209-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+210            <intent-filter>
+210-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+211                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+211-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+211-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+212
+213                <category android:name="com.parse.starter" />
+213-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+213-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+214            </intent-filter>
+215        </receiver>
+216        <!--
+217             FirebaseInstanceIdService performs security checks at runtime,
+218             no need for explicit permissions despite exported="true"
+219        -->
+220        <service
+220-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+221            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+221-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+222            android:exported="true" >
+222-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+223            <intent-filter android:priority="-500" >
+223-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+223-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+224                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+224-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+224-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\3f7bc67d767507bb203efd53b2a01b68\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+225            </intent-filter>
+226        </service>
+227
+228        <provider
+228-->[com.google.firebase:firebase-common:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\d6fc9229fc449ab10cef2da605f0d74f\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+229            android:name="com.google.firebase.provider.FirebaseInitProvider"
+229-->[com.google.firebase:firebase-common:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\d6fc9229fc449ab10cef2da605f0d74f\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+230            android:authorities="com.parse.starter.firebaseinitprovider"
+230-->[com.google.firebase:firebase-common:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\d6fc9229fc449ab10cef2da605f0d74f\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+231            android:exported="false"
+231-->[com.google.firebase:firebase-common:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\d6fc9229fc449ab10cef2da605f0d74f\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+232            android:initOrder="100" />
+232-->[com.google.firebase:firebase-common:12.0.1] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\d6fc9229fc449ab10cef2da605f0d74f\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+233
+234        <meta-data
+234-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+235            android:name="android.arch.lifecycle.VERSION"
+235-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:26:13-58
+236            android:value="27.0.0-SNAPSHOT" />
+236-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RAVI\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:27:13-44
+237    </application>
+238
+239</manifest>

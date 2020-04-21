@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Feedback"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="To:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/toEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="FoodFromHome@gmail.com" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailSubject"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="10"
+        android:gravity="start|top"
+
+        />
+
+    <Button
+        android:id="@+id/sendButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:text="Send"
+        android:textColor="#FCFFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/feedback" />
+
+
+</LinearLayout>

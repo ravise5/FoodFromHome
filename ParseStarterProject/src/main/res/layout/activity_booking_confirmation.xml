@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingConfirmation">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_below="@+id/menuTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="401dp"
+        android:background="#4CAF50"
+        android:onClick="refresh"
+        android:text="Refresh" />
+
+    <TextView
+        android:id="@+id/orderIDTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="115dp"
+        android:text="Order ID:"
+        android:textColor="#F50A0606"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="209dp"
+        android:text="Contact No:"
+        android:textColor="#F50A0606"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="167dp"
+        android:text="Your Order is Delivered by:"
+        android:textColor="#F50A0606"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cartTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="571dp"
+        android:background="#00673AB7"
+        android:paddingLeft="50dp"
+        android:paddingTop="4dp"
+        android:text="Booking Confirmation"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

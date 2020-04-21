@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTP">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_below="@+id/menuTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="401dp"
+        android:background="#4CAF50"
+        android:onClick="submit"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/cartTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="516dp"
+        android:background="#00673AB7"
+        android:paddingLeft="110dp"
+        android:paddingTop="4dp"
+        android:text="Enter the OTP"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/otpEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="283dp"
+        android:textColor="#FCE60F0F" />
+</RelativeLayout>

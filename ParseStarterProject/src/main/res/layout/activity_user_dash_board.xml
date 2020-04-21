@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad"
+    tools:context=".UserDashBoard">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="657dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/cardview_shadow_end_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/hiTextView"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="117dp"
+            android:layout_marginEnd="19dp"
+            android:text="Hi "
+            android:textColor="#160B0F"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/locationImageView"
+            android:layout_width="119dp"
+            android:layout_height="112dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="239dp"
+            android:layout_marginTop="205dp"
+            app:srcCompat="@drawable/map" />
+
+        <ImageView
+            android:id="@+id/foodImageView"
+            android:layout_width="125dp"
+            android:layout_height="105dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="207dp"
+            android:layout_marginEnd="240dp"
+            app:srcCompat="@drawable/fork" />
+
+        <ImageView
+            android:id="@+id/cartImageView"
+            android:layout_width="120dp"
+            android:layout_height="117dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="246dp"
+            android:layout_marginBottom="156dp"
+            app:srcCompat="@drawable/cart" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginBottom="312dp"
+            android:text="Find Food"
+            android:textColor="#FC0E0707"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="311dp"
+            android:text="Pickup Location"
+            android:textColor="#F50F0808"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginBottom="118dp"
+            android:text="My Cart"
+            android:textColor="#FA0E0606"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="74dp"
+            android:layout_marginBottom="119dp"
+            android:text="Track My Order"
+            android:textColor="#FC181010"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="45dp"
+            android:text="We would love to hear from you.."
+            android:textColor="#FC181010"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/backImageView"
+            android:layout_width="44dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/trackImageView"
+            android:layout_width="121dp"
+            android:layout_height="117dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="230dp"
+            android:layout_marginBottom="157dp"
+            app:srcCompat="@drawable/route" />
+
+        <ImageView
+            android:id="@+id/mail"
+            android:layout_width="88dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginBottom="31dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/gmail" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

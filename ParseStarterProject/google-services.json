@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740384432135",
+    "firebase_url": "https://food-from-home-7b127.firebaseio.com",
+    "project_id": "food-from-home-7b127",
+    "storage_bucket": "food-from-home-7b127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740384432135:android:d8d5013fb55a5d11c68aa2",
+        "android_client_info": {
+          "package_name": "com.parse.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740384432135-ceog9p5896tqot9r9gf9tbuon71s4t81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parse.starter",
+            "certificate_hash": "b87f156189663f026e2a911c95c6fa513b42cf40"
+          }
+        },
+        {
+          "client_id": "740384432135-jf61qgoo07lfoc3parko11st00mm1b9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAEazDutmzQKhtc2MNdxaZW0hEoTUNIIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740384432135-jf61qgoo07lfoc3parko11st00mm1b9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
