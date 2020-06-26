@@ -1,6 +1,6 @@
 # FoodFromHome
 
-Created By: Ravisanker, M V Aditya, Y Akhil
+Created By: Ravisanker
 
 An android app to buy and sell healthy and homely food in the neighbourhood.
 
